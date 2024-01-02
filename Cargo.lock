@@ -619,7 +619,7 @@ dependencies = [
  "arrayref",
  "borsh 0.10.3",
  "solana-program",
- "spl-token 4.0.0",
+ "spl-token",
  "thiserror",
  "uint",
 ]
@@ -1907,7 +1907,7 @@ version = "1.0.0"
 dependencies = [
  "arrayref",
  "solana-program",
- "spl-token 4.0.0",
+ "spl-token",
 ]
 
 [[package]]
@@ -4913,7 +4913,7 @@ dependencies = [
  "serde_json",
  "solana-config-program",
  "solana-sdk",
- "spl-token 4.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "spl-token",
  "spl-token-2022 0.9.0",
  "spl-token-metadata-interface 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "thiserror",
@@ -5590,7 +5590,7 @@ dependencies = [
  "solana-transaction-status",
  "solana-vote",
  "solana-vote-program",
- "spl-token 4.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "spl-token",
  "spl-token-2022 0.9.0",
  "static_assertions",
  "strum 0.24.1",
@@ -5973,7 +5973,7 @@ dependencies = [
  "solana-version",
  "solana-vote",
  "solana-vote-program",
- "spl-token 4.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "spl-token",
  "spl-token-2022 0.9.0",
  "stream-cancel",
  "thiserror",
@@ -6411,7 +6411,7 @@ dependencies = [
  "solana-sdk",
  "spl-associated-token-account 2.2.0",
  "spl-memo 4.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "spl-token 4.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "spl-token",
  "spl-token-2022 0.9.0",
  "thiserror",
 ]
@@ -6620,7 +6620,7 @@ dependencies = [
  "num-derive 0.4.1",
  "num-traits",
  "solana-program",
- "spl-token 4.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "spl-token",
  "spl-token-2022 0.9.0",
  "thiserror",
 ]
@@ -6634,7 +6634,7 @@ dependencies = [
  "num-derive 0.4.1",
  "num-traits",
  "solana-program",
- "spl-token 4.0.0",
+ "spl-token",
  "spl-token-2022 1.0.0",
  "thiserror",
 ]
@@ -6647,7 +6647,7 @@ dependencies = [
  "solana-program-test",
  "solana-sdk",
  "spl-associated-token-account 2.3.0",
- "spl-token 4.0.0",
+ "spl-token",
  "spl-token-2022 1.0.0",
 ]
 
@@ -6661,7 +6661,7 @@ dependencies = [
  "solana-program",
  "solana-program-test",
  "solana-sdk",
- "spl-token 4.0.0",
+ "spl-token",
  "thiserror",
  "uint",
 ]
@@ -6796,7 +6796,7 @@ dependencies = [
  "solana-program",
  "solana-program-test",
  "solana-sdk",
- "spl-token 4.0.0",
+ "spl-token",
 ]
 
 [[package]]
@@ -6818,7 +6818,7 @@ dependencies = [
  "solana-program",
  "solana-program-test",
  "solana-sdk",
- "spl-token 4.0.0",
+ "spl-token",
 ]
 
 [[package]]
@@ -6856,7 +6856,7 @@ dependencies = [
  "spl-governance-addin-mock",
  "spl-governance-test-sdk",
  "spl-governance-tools",
- "spl-token 4.0.0",
+ "spl-token",
  "thiserror",
 ]
 
@@ -6888,7 +6888,7 @@ dependencies = [
  "spl-governance-addin-api",
  "spl-governance-test-sdk",
  "spl-governance-tools",
- "spl-token 4.0.0",
+ "spl-token",
  "thiserror",
 ]
 
@@ -6913,7 +6913,7 @@ dependencies = [
  "spl-governance-addin-mock",
  "spl-governance-test-sdk",
  "spl-governance-tools",
- "spl-token 4.0.0",
+ "spl-token",
  "thiserror",
 ]
 
@@ -6932,7 +6932,7 @@ dependencies = [
  "solana-program",
  "solana-program-test",
  "solana-sdk",
- "spl-token 4.0.0",
+ "spl-token",
  "thiserror",
 ]
 
@@ -6948,7 +6948,7 @@ dependencies = [
  "serde",
  "serde_derive",
  "solana-program",
- "spl-token 4.0.0",
+ "spl-token",
  "thiserror",
 ]
 
@@ -6972,7 +6972,7 @@ dependencies = [
  "solana-program-test",
  "solana-sdk",
  "spl-associated-token-account 2.3.0",
- "spl-token 4.0.0",
+ "spl-token",
  "thiserror",
 ]
 
@@ -7147,7 +7147,7 @@ dependencies = [
  "solana-sdk",
  "solana-vote-program",
  "spl-associated-token-account 2.3.0",
- "spl-token 4.0.0",
+ "spl-token",
  "test-case",
  "thiserror",
 ]
@@ -7178,7 +7178,7 @@ dependencies = [
  "solana-vote-program",
  "spl-associated-token-account 2.3.0",
  "spl-single-pool",
- "spl-token 4.0.0",
+ "spl-token",
  "spl-token-client",
  "tempfile",
  "test-case",
@@ -7207,7 +7207,7 @@ dependencies = [
  "solana-vote-program",
  "spl-math",
  "spl-pod 0.1.0",
- "spl-token 4.0.0",
+ "spl-token",
  "spl-token-2022 1.0.0",
  "test-case",
  "thiserror",
@@ -7235,7 +7235,7 @@ dependencies = [
  "solana-sdk",
  "spl-associated-token-account 2.3.0",
  "spl-stake-pool",
- "spl-token 4.0.0",
+ "spl-token",
 ]
 
 [[package]]
@@ -7272,24 +7272,6 @@ dependencies = [
 [[package]]
 name = "spl-token"
 version = "4.0.0"
-dependencies = [
- "arrayref",
- "bytemuck",
- "lazy_static",
- "num-derive 0.4.1",
- "num-traits",
- "num_enum 0.7.1",
- "proptest",
- "serial_test",
- "solana-program",
- "solana-program-test",
- "solana-sdk",
- "thiserror",
-]
-
-[[package]]
-name = "spl-token"
-version = "4.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "08459ba1b8f7c1020b4582c4edf0f5c7511a5e099a7a97570c9698d4f2337060"
 dependencies = [
@@ -7317,7 +7299,7 @@ dependencies = [
  "solana-zk-token-sdk",
  "spl-memo 4.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "spl-pod 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "spl-token 4.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "spl-token",
  "spl-token-metadata-interface 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "spl-transfer-hook-interface 0.3.0",
  "spl-type-length-value 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -7347,7 +7329,7 @@ dependencies = [
  "solana-zk-token-sdk",
  "spl-memo 4.0.0",
  "spl-pod 0.1.0",
- "spl-token 4.0.0",
+ "spl-token",
  "spl-token-group-interface",
  "spl-token-metadata-interface 0.2.0",
  "spl-transfer-hook-interface 0.4.1",
@@ -7380,6 +7362,24 @@ dependencies = [
 ]
 
 [[package]]
+name = "spl-token-any"
+version = "4.0.1"
+dependencies = [
+ "arrayref",
+ "bytemuck",
+ "lazy_static",
+ "num-derive 0.4.1",
+ "num-traits",
+ "num_enum 0.7.1",
+ "proptest",
+ "serial_test",
+ "solana-program",
+ "solana-program-test",
+ "solana-sdk",
+ "thiserror",
+]
+
+[[package]]
 name = "spl-token-cli"
 version = "3.3.0"
 dependencies = [
@@ -7405,7 +7405,7 @@ dependencies = [
  "solana-transaction-status",
  "spl-associated-token-account 2.3.0",
  "spl-memo 4.0.0",
- "spl-token 4.0.0",
+ "spl-token",
  "spl-token-2022 1.0.0",
  "spl-token-client",
  "spl-token-metadata-interface 0.2.0",
@@ -7432,7 +7432,7 @@ dependencies = [
  "solana-sdk",
  "spl-associated-token-account 2.3.0",
  "spl-memo 4.0.0",
- "spl-token 4.0.0",
+ "spl-token",
  "spl-token-2022 1.0.0",
  "spl-token-group-interface",
  "spl-token-metadata-interface 0.2.0",
@@ -7499,7 +7499,7 @@ dependencies = [
  "solana-program",
  "solana-program-test",
  "solana-sdk",
- "spl-token 4.0.0",
+ "spl-token",
  "thiserror",
  "uint",
 ]
@@ -7515,7 +7515,7 @@ dependencies = [
  "solana-logger",
  "solana-program",
  "solana-sdk",
- "spl-token 4.0.0",
+ "spl-token",
  "spl-token-lending",
 ]
 
@@ -7576,7 +7576,7 @@ dependencies = [
  "solana-program",
  "solana-sdk",
  "spl-math",
- "spl-token 4.0.0",
+ "spl-token",
  "spl-token-2022 1.0.0",
  "test-case",
  "thiserror",
@@ -7590,7 +7590,7 @@ dependencies = [
  "honggfuzz",
  "solana-program",
  "spl-math",
- "spl-token 4.0.0",
+ "spl-token",
  "spl-token-swap",
 ]
 
@@ -7604,7 +7604,7 @@ dependencies = [
  "solana-program",
  "solana-program-test",
  "solana-sdk",
- "spl-token 4.0.0",
+ "spl-token",
  "spl-token-2022 1.0.0",
  "spl-token-client",
  "test-case",
@@ -7625,7 +7625,7 @@ dependencies = [
  "solana-sdk",
  "solana-test-validator",
  "spl-associated-token-account 2.3.0",
- "spl-token 4.0.0",
+ "spl-token",
  "spl-token-2022 1.0.0",
  "spl-token-client",
  "spl-token-upgrade",
@@ -7641,7 +7641,7 @@ dependencies = [
  "num_enum 0.7.1",
  "solana-program",
  "spl-associated-token-account 2.3.0",
- "spl-token 4.0.0",
+ "spl-token",
  "spl-token-2022 1.0.0",
  "thiserror",
 ]
@@ -7765,7 +7765,7 @@ dependencies = [
  "solana-program-test",
  "solana-sdk",
  "spl-associated-token-account 2.3.0",
- "spl-token 4.0.0",
+ "spl-token",
  "thiserror",
 ]
 
@@ -8050,7 +8050,7 @@ version = "0.1.0"
 dependencies = [
  "solana-sdk",
  "spl-memo 4.0.0",
- "spl-token 4.0.0",
+ "spl-token",
  "spl-token-swap",
 ]
 

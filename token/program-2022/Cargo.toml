@@ -28,7 +28,8 @@ solana-program = "1.17.6"
 solana-security-txt = "1.1.1"
 solana-zk-token-sdk = "1.17.6"
 spl-memo = { version = "4.0.0", path = "../../memo/program", features = [ "no-entrypoint" ] }
-spl-token = { version = "4.0",  path = "../program", features = ["no-entrypoint"] }
+#spl-token = { version = "4.0",  path = "../program", features = ["no-entrypoint"] }
+spl-token = "4.0"
 spl-token-group-interface = { version = "0.1.0", path = "../../token-group/interface" }
 spl-token-metadata-interface = { version = "0.2.0", path = "../../token-metadata/interface" }
 spl-transfer-hook-interface = { version = "0.4.0", path = "../transfer-hook/interface" }
